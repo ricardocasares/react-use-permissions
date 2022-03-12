@@ -1,3 +1,3 @@
 type PermissionState = null | true | false;
 
-export default function usePermissions(): PermissionState;
+export default function usePermissions(name: string): PermissionState;
